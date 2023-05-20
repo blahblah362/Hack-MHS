@@ -132,12 +132,12 @@ class App:
                    START_TEXT_SIZE, (170, 132, 58),
                    START_FONT,
                    centered=True)
-    self.draw_text('Clean out the carbon and avoid the plastic bags',
+    self.draw_text('Clean out the pollution caused by carbon and avoid the plastic bags',
                    self.screen, [WIDTH // 2, HEIGHT // 2 + 50],
                    START_TEXT_SIZE, (44, 167, 198),
                    START_FONT,
                    centered=True)
-    self.draw_text('Carbon Collector', self.screen, [4, 0], START_TEXT_SIZE,
+    self.draw_text('Pollution Sweeper', self.screen, [4, 0], START_TEXT_SIZE,
                    (255, 255, 255), START_FONT)
     pygame.display.update()
 
